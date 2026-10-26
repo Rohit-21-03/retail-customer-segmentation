@@ -477,10 +477,4 @@ For full details, see [CHANGELOG.md](CHANGELOG.md), [PROJECT_AUDIT.md](PROJECT_A
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
-
----
-
-<div align="center">
-  <sub>Built with ❤️ for the data science community · Based on the tutorial by <a href="https://www.youtube.com/@TrentDoesMath">TrentDoesMath</a></sub>
-</div>
+This project is licensed under the **MIT License**.
