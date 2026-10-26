@@ -1,0 +1,44 @@
+{
+  "selected_k": 2,
+  "rows_after_cleaning": 406309,
+  "customers_in_rfm": 4285,
+  "best_silhouette": 0.9229566483580016,
+  "selected_silhouette": 0.9229566483580016,
+  "cluster_sizes": {
+    "0": 4271,
+    "1": 14
+  },
+  "cluster_profiles": [
+    {
+      "Cluster": 0,
+      "customer_count": 4271,
+      "avg_recency": 89.83142121283072,
+      "median_recency": 51.0,
+      "avg_frequency": 4.1070007024116135,
+      "median_frequency": 2.0,
+      "avg_monetary": 1677.7942224303442,
+      "median_monetary": 694.72,
+      "total_revenue": 7165859.124,
+      "customer_pct": 0.996732788798133,
+      "revenue_pct": 0.8261896009654799
+    },
+    {
+      "Cluster": 1,
+      "customer_count": 14,
+      "avg_recency": 3.142857142857143,
+      "median_recency": 2.0,
+      "avg_frequency": 101.78571428571429,
+      "median_frequency": 92.5,
+      "avg_monetary": 107680.30142857143,
+      "median_monetary": 70597.48,
+      "total_revenue": 1507524.22,
+      "customer_pct": 0.003267211201866978,
+      "revenue_pct": 0.17381039903452006
+    }
+  ],
+  "diagnostic_plots": {
+    "elbow_curve": "C:\\Users\\rohit\\Desktop\\K-mean\\outputs\\diagnostics\\elbow_curve.png",
+    "silhouette_curve": "C:\\Users\\rohit\\Desktop\\K-mean\\outputs\\diagnostics\\silhouette_curve.png"
+  },
+  "selection_note": "K=2 remains the strongest statistical baseline for this dataset, but the cluster is extremely imbalanced and should be treated as a business baseline rather than a final operational segmentation."
+}

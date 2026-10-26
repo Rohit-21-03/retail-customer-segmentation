@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local dataset copy; download instructions are in data/README.md
+/data/online_retail_II.xlsx
+
+# Notebook and editor artifacts
+.ipynb_checkpoints/
+.vscode/
+
+# Operating-system files
+Thumbs.db
+.DS_Store
